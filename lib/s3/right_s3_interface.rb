@@ -1122,8 +1122,8 @@ module RightAws
       end
       def tagend(name)
         case name
-        when 'LastModified' : @result[:last_modified] = @text
-        when 'ETag'         : @result[:e_tag]         = @text
+        when 'LastModified' then @result[:last_modified] = @text
+        when 'ETag'         then @result[:e_tag]         = @text
         end
       end
     end
