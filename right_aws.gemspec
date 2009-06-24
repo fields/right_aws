@@ -1,10 +1,10 @@
 Gem::Specification.new do |s|
   s.name = %q{right_aws}
-  s.version = "1.10.3"
+  s.version = "1.10.4"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["RightScale, Inc.","Ian Neubert"]
-  s.date = %q{2009-04-06}
+  s.authors = ["RightScale, Inc.","Ian Neubert","Dylan Markow"]
+  s.date = %q{2009-06-24}
   s.description = %q{== DESCRIPTION:  The RightScale AWS gems have been designed to provide a robust, fast, and secure interface to Amazon EC2, EBS, S3, SQS, SDB, and CloudFront.  These gems have been used in production by RightScale since late 2006 and are being maintained to track enhancements made by Amazon.  The RightScale AWS gems comprise:  - RightAws::Ec2 -- interface to Amazon EC2 (Elastic Compute Cloud) and the associated EBS (Elastic Block Store) - RightAws::S3 and RightAws::S3Interface -- interface to Amazon S3 (Simple Storage Service) - RightAws::Sqs and RightAws::SqsInterface -- interface to first-generation Amazon SQS (Simple Queue Service) (API version 2007-05-01) - RightAws::SqsGen2 and RightAws::SqsGen2Interface -- interface to second-generation Amazon SQS (Simple Queue Service) (API version 2008-01-01) - RightAws::SdbInterface and RightAws::ActiveSdb -- interface to Amazon SDB (SimpleDB) - RightAws::AcfInterface -- interface to Amazon CloudFront, a content distribution service  == FEATURES:}
   s.email = %q{rubygems@rightscale.com}
   s.extra_rdoc_files = ["History.txt", "Manifest.txt", "README.txt"]
