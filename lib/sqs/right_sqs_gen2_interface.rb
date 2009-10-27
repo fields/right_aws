@@ -42,7 +42,7 @@ module RightAws
     DEFAULT_HOST      = "queue.amazonaws.com"
     DEFAULT_PORT      = 443
     DEFAULT_PROTOCOL  = 'https'
-    REQUEST_TTL       = 30
+    REQUEST_TTL       = 3000
     DEFAULT_VISIBILITY_TIMEOUT = 30
 
 
